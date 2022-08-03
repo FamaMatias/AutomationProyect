@@ -1,2 +1,2 @@
 # AutomationProyect
-Proyecto tienda de mascota
+Pet Shop Proyect
