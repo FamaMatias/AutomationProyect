@@ -1,7 +1,7 @@
-Feature: Service client GET
+Feature: Service client DELETE
   As AQ Automation
-  I want to search for a pet by id
-  To validate the status code and response
+  I want to deletes pets
+  To eliminate to the petstore
 
   Background:
     * url url

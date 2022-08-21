@@ -14,7 +14,7 @@ Feature: Service client GET
 
   Scenario Outline: Filter pets with invalidate id using the method GET
 
-    * def responseError = read('classpath:karate/request/responseErrorFilterPetById.json')
+    * def responseError = read('classpath:karate/request/responseError.json')
 
     Given path 'pet',<id>
     When method GET

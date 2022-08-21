@@ -1,7 +1,7 @@
-Feature: Service client GET
+Feature: Service client POST
   As AQ Automation
-  I want to search for a pet by id
-  To validate the status code and response
+  I want to create a new pets
+  To see in the petstore
 
   Background:
     * url url
@@ -46,11 +46,11 @@ Feature: Service client GET
 
   Scenario Outline: Create a pet with invalid name and id with method POST
 
-   Given path 'pet','8'
+   Given path 'pet'
    And request
    """
     {
-      "id": 8,
+      "id": <idCat>,
       "category": {
       "id": <idCat>,
       "name": <name>
@@ -69,7 +69,7 @@ Feature: Service client GET
     }
    """
    When method POST
-   Then status 415
+   Then status 500
 
   Examples:
   |name  |idCat   |
