@@ -6,7 +6,7 @@ Feature: Service client GET
   Background:
     * url url
 
-  Scenario Outline: Create a pet with valid name and id
+  Scenario Outline: Create a pet with valid name and id with method POST
     * def bodyOk = read('classpath:karate/request/responseCreateOk.json')
 
     Given path 'pet'
@@ -44,7 +44,7 @@ Feature: Service client GET
       |"p"      |"26983"|
       |"P"      |""     |
 
-  Scenario Outline: Create a pet with invalid name
+  Scenario Outline: Create a pet with invalid name and id with method POST
 
    Given path 'pet','8'
    And request
@@ -78,7 +78,7 @@ Feature: Service client GET
   |-1    |"A"     |
   |"#$%&"|"#$%&"  |
 
-  Scenario Outline: Create a pet with valid status
+  Scenario Outline: Create a pet with valid status with method POST
 
     * def bodyOk = read('classpath:karate/request/responseCreateOk.json')
 
@@ -114,7 +114,7 @@ Feature: Service client GET
       |"pending"  |
       |"sold"     |
 
-  Scenario Outline: Create a pet with invalid status
+  Scenario Outline: Create a pet with invalid status with method POST
 
     Given  path 'pet'
     And request

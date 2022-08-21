@@ -5,6 +5,7 @@ Feature: Service client GET
 
   Background:
     * url url
+
   Scenario: Deletes a valid pets with the method DELETE
 
     * def responseOk = read('classpath:karate/request/responseErrorFilterPetById.json')
