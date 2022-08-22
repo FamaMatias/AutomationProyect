@@ -8,7 +8,7 @@ Feature: Service client DELETE
 
   Scenario: Deletes a valid pets with the method DELETE
 
-  Given path 'pet','5'
+  Given path 'pet','9'
   When method DELETE
   Then status 200
 

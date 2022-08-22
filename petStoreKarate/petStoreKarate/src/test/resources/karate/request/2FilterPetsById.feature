@@ -18,7 +18,7 @@ Feature: Service client GET
 
     Given path 'pet',<id>
     When method GET
-    Then status 200
+    Then status 404
     And match response == responseError
 
     Examples:
