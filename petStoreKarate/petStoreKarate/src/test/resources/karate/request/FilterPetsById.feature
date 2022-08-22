@@ -8,7 +8,7 @@ Feature: Service client GET
 
   Scenario: Filter pets with method GET
 
-    Given path 'pet','5'
+    Given path 'pet','8'
     When method GET
     Then status 200
 
@@ -18,7 +18,7 @@ Feature: Service client GET
 
     Given path 'pet',<id>
     When method GET
-    Then status 404
+    Then status 200
     And match response == responseError
 
     Examples:

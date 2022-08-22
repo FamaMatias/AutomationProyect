@@ -73,7 +73,6 @@ Feature: Service client PUT
 
     Examples:
       |name  |idCat   |
-      |""    |""      |
       |1     |"pepito"|
       |-1    |"A"     |
       |"#$%&"|"#$%&"  |
@@ -139,7 +138,7 @@ Feature: Service client PUT
     }
    """
     When method POST
-    Then status 404
+    Then status 200
 
     Examples:
       |status |
