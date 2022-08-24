@@ -1,5 +1,0 @@
-karate/request/PetIdUpdate.class
-karate/request/DeletesPet.class
-karate/AllFeatureTest.class
-karate/request/FilterPetsById.class
-karate/request/CreateNewPet.class
