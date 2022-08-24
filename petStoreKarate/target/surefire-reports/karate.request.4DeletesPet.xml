@@ -1,0 +1,86 @@
+<testsuite failures="1" name="karate/request/4DeletesPet.feature" skipped="0" tests="5" time="6.055543">
+  <testcase classname="karate.request.4DeletesPet" name="Deletes a valid pets with the method DELETE" time="1.201076">
+    <failure message="4DeletesPet.feature:13 - status code was: 404, expected: 200, response time: 1196, url: https://petstore.swagger.io/v2/pet/9, response: ">* url url ................................................................. passed
+Given path 'pet','9' ...................................................... passed
+When method DELETE ........................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 4DeletesPet.feature:13 - status code was: 404, expected: 200, response time: 1196, url: https://petstore.swagger.io/v2/pet/9, response: 
+	at ✽.Then status 200 (4DeletesPet.feature:13)</failure>
+  </testcase>
+  <testcase classname="karate.request.4DeletesPet" name="Deletes a invalid pets with the method DELETE" time="1.240915">
+    <system-out>* url url ................................................................. passed
+Given path 'pet','9' ...................................................... passed
+When method DELETE ........................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 4DeletesPet.feature:13 - status code was: 404, expected: 200, response time: 1196, url: https://petstore.swagger.io/v2/pet/9, response: 
+	at ✽.Then status 200 (4DeletesPet.feature:13)
+
+* url url ................................................................. passed
+Given path 5.56 ........................................................... passed
+When method DELETE ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.4DeletesPet" name="Deletes a invalid pets with the method DELETE" time="1.097">
+    <system-out>* url url ................................................................. passed
+Given path 'pet','9' ...................................................... passed
+When method DELETE ........................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 4DeletesPet.feature:13 - status code was: 404, expected: 200, response time: 1196, url: https://petstore.swagger.io/v2/pet/9, response: 
+	at ✽.Then status 200 (4DeletesPet.feature:13)
+
+* url url ................................................................. passed
+Given path 5.56 ........................................................... passed
+When method DELETE ........................................................ passed
+* url url ................................................................. passed
+Given path -5 ............................................................. passed
+When method DELETE ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.4DeletesPet" name="Deletes a invalid pets with the method DELETE" time="1.337877">
+    <system-out>* url url ................................................................. passed
+Given path 'pet','9' ...................................................... passed
+When method DELETE ........................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 4DeletesPet.feature:13 - status code was: 404, expected: 200, response time: 1196, url: https://petstore.swagger.io/v2/pet/9, response: 
+	at ✽.Then status 200 (4DeletesPet.feature:13)
+
+* url url ................................................................. passed
+Given path 5.56 ........................................................... passed
+When method DELETE ........................................................ passed
+* url url ................................................................. passed
+Given path -5 ............................................................. passed
+When method DELETE ........................................................ passed
+* url url ................................................................. passed
+Given path "a" ............................................................ passed
+When method DELETE ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.4DeletesPet" name="Deletes a invalid pets with the method DELETE" time="1.178675">
+    <system-out>* url url ................................................................. passed
+Given path 'pet','9' ...................................................... passed
+When method DELETE ........................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 4DeletesPet.feature:13 - status code was: 404, expected: 200, response time: 1196, url: https://petstore.swagger.io/v2/pet/9, response: 
+	at ✽.Then status 200 (4DeletesPet.feature:13)
+
+* url url ................................................................. passed
+Given path 5.56 ........................................................... passed
+When method DELETE ........................................................ passed
+* url url ................................................................. passed
+Given path -5 ............................................................. passed
+When method DELETE ........................................................ passed
+* url url ................................................................. passed
+Given path "a" ............................................................ passed
+When method DELETE ........................................................ passed
+* url url ................................................................. passed
+Given path "A" ............................................................ passed
+When method DELETE ........................................................ passed</system-out>
+  </testcase>
+</testsuite>

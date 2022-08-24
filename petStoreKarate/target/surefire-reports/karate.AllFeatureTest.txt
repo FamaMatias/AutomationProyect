@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: karate.AllFeatureTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.359 s <<< FAILURE! - in karate.AllFeatureTest
+testParallel  Time elapsed: 59.352 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at karate.AllFeatureTest.testParallel(AllFeatureTest.java:33)
+

@@ -1,0 +1,1 @@
+{"features":4,"ignored":0,"efficiency":0.955407175881951,"failures":{"karate.request.4DeletesPet":"4DeletesPet.feature:13 - status code was: 404, expected: 200, response time: 1196, url: https:\/\/petstore.swagger.io\/v2\/pet\/9, response: "},"totalTime":54516.488863000006,"threads":1,"scenarios":47,"failed":1,"passed":46,"version":"0.9.6","elapsedTime":57061.0}

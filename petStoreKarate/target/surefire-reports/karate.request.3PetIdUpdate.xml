@@ -1,0 +1,1127 @@
+<testsuite failures="0" name="karate/request/3PetIdUpdate.feature" skipped="0" tests="18" time="20.233182">
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid name and id with method PUT" time="1.300332">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid name and id with method PUT" time="1.224296">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid name and id with method PUT" time="1.223504">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid name and id with method PUT" time="1.219949">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid name and id with method PUT" time="1.223083">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid name and id with method PUT" time="1.206296">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid name and id with method PUT" time="0.815646">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid name and id with method PUT" time="0.639562">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid name and id with method PUT" time="0.664664">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid status with method PUT" time="0.948431">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid status with method PUT" time="1.222288">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with valid status with method PUT" time="1.224226">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid status with method PUT" time="1.213095">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid status with method PUT" time="1.23352">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid status with method PUT" time="1.223292">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid status with method PUT" time="1.209653">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid status with method PUT" time="1.236369">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.3PetIdUpdate" name="Update a pet with invalid status with method PUT" time="1.204977">
+    <system-out>* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+* def bodyOk = read('classpath:karate/request/responseCreateOk.json') ..... passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response == bodyOk .............................................. passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* url url ................................................................. passed
+Given path 'pet' .......................................................... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

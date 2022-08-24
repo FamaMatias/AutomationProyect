@@ -1,0 +1,1000 @@
+08:00:34.671 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 145
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"1","name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:36.176 response time in milliseconds: 1501.59
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:36 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":1,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:36.192 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 146
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"25","name":"PEPITO"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:37.034 response time in milliseconds: 840.80
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:36 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":25,"name":"PEPITO"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:37.051 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 147
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"365","name":"pepe15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:37.716 response time in milliseconds: 664.96
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:37 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":365,"name":"pepe15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:37.731 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 149
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"4983","name":"pepe-15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:38.404 response time in milliseconds: 671.09
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:38 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":4983,"name":"pepe-15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:38.440 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 144
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"26983","name":"p"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:39.120 response time in milliseconds: 678.44
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:39 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":26983,"name":"p"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:39.136 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 139
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"","name":"P"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:40.120 response time in milliseconds: 983.09
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:39 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"P"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:40.132 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 150
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":"pepito","category":{"id":"pepito","name":1},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:41.305 response time in milliseconds: 1171.69
+1 < 500
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:41 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":500,"type":"unknown","message":"something bad happened"}
+
+08:00:41.316 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 141
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":"A","category":{"id":"A","name":-1},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:42.579 response time in milliseconds: 1261.45
+1 < 500
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:42 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":500,"type":"unknown","message":"something bad happened"}
+
+08:00:42.589 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 151
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":"#$%&","category":{"id":"#$%&","name":"#$%&"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:43.811 response time in milliseconds: 1219.92
+1 < 500
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:43 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":500,"type":"unknown","message":"something bad happened"}
+
+08:00:43.826 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 143
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:45.034 response time in milliseconds: 1207.15
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:44 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:45.047 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 141
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"pending"}
+
+08:00:46.263 response time in milliseconds: 1214.78
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:46 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"pending"}
+
+08:00:46.275 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"sold"}
+
+08:00:47.389 response time in milliseconds: 1112.73
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:47 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"sold"}
+
+08:00:47.401 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 134
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":""}
+
+08:00:48.721 response time in milliseconds: 1318.65
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:48 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":""}
+
+08:00:48.735 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 135
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"1"}
+
+08:00:49.952 response time in milliseconds: 1215.67
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:49 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"1"}
+
+08:00:49.962 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"-1"}
+
+08:00:51.177 response time in milliseconds: 1214.00
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:50 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"-1"}
+
+08:00:51.190 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 135
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"a"}
+
+08:00:52.406 response time in milliseconds: 1215.49
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:52 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"a"}
+
+08:00:52.421 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 135
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"A"}
+
+08:00:53.635 response time in milliseconds: 1212.79
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:53 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"A"}
+
+08:00:53.643 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"#$%&"}
+
+08:00:54.864 response time in milliseconds: 1219.73
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:54 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"#$%&"}
+
+08:00:55.411 request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 145
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"1","name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:56.707 response time in milliseconds: 1295.30
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:56 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":1,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:56.718 request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 146
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"25","name":"PEPITO"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:57.937 response time in milliseconds: 1218.13
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:57 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":25,"name":"PEPITO"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:57.949 request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 147
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"365","name":"pepe15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:59.169 response time in milliseconds: 1218.63
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:00:58 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":365,"name":"pepe15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:00:59.177 request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 149
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"4983","name":"pepe-15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:00.394 response time in milliseconds: 1215.31
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:00 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":4983,"name":"pepe-15"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:00.403 request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 144
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"26983","name":"p"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:01.622 response time in milliseconds: 1218.57
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:01 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":26983,"name":"p"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:01.630 request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 139
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":"","name":"P"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:02.834 response time in milliseconds: 1202.42
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:02 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"P"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:02.841 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 150
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":"pepito","category":{"id":"pepito","name":1},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:03.655 response time in milliseconds: 812.64
+1 < 500
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:03 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":500,"type":"unknown","message":"something bad happened"}
+
+08:01:03.667 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 141
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":"A","category":{"id":"A","name":-1},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:04.302 response time in milliseconds: 634.77
+1 < 500
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:04 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":500,"type":"unknown","message":"something bad happened"}
+
+08:01:04.308 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 151
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":"#$%&","category":{"id":"#$%&","name":"#$%&"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:04.971 response time in milliseconds: 662.31
+1 < 500
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:04 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":500,"type":"unknown","message":"something bad happened"}
+
+08:01:04.983 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 143
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:05.925 response time in milliseconds: 941.40
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:05 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"available"}
+
+08:01:05.934 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 141
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"pending"}
+
+08:01:07.153 response time in milliseconds: 1218.10
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:06 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"pending"}
+
+08:01:07.161 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"sold"}
+
+08:01:08.382 response time in milliseconds: 1220.00
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:08 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"sold"}
+
+08:01:08.389 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 134
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":""}
+
+08:01:09.503 response time in milliseconds: 1113.82
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:09 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":""}
+
+08:01:09.609 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 135
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"1"}
+
+08:01:10.840 response time in milliseconds: 1229.57
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:10 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"1"}
+
+08:01:10.846 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 136
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"-1"}
+
+08:01:12.068 response time in milliseconds: 1220.90
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:11 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"-1"}
+
+08:01:12.075 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 135
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"a"}
+
+08:01:13.283 response time in milliseconds: 1206.97
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:13 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"a"}
+
+08:01:13.290 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 135
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"A"}
+
+08:01:14.525 response time in milliseconds: 1234.12
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:14 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"A"}
+
+08:01:14.556 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"#$%&"}
+
+08:01:15.758 response time in milliseconds: 1201.63
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:15 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"#$%&"}
+
+08:01:15.785 request:
+1 > DELETE https://petstore.swagger.io/v2/pet/9
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:16.982 response time in milliseconds: 1196.26
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 24 Aug 2022 11:01:16 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+
+08:01:16.983 status code was: 404, expected: 200, response time: 1196, url: https://petstore.swagger.io/v2/pet/9, response: 
+08:01:16.992 request:
+1 > DELETE https://petstore.swagger.io/v2/5.56
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:18.211 response time in milliseconds: 1218.01
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 169
+1 < Content-Type: application/xml
+1 < Date: Wed, 24 Aug 2022 11:01:17 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/5.56</message><type>unknown</type></apiResponse>
+
+08:01:18.236 request:
+1 > DELETE https://petstore.swagger.io/v2/-5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:19.326 response time in milliseconds: 1090.04
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 167
+1 < Content-Type: application/xml
+1 < Date: Wed, 24 Aug 2022 11:01:19 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/-5</message><type>unknown</type></apiResponse>
+
+08:01:19.338 request:
+1 > DELETE https://petstore.swagger.io/v2/a
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:20.671 response time in milliseconds: 1332.09
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 166
+1 < Content-Type: application/xml
+1 < Date: Wed, 24 Aug 2022 11:01:20 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/a</message><type>unknown</type></apiResponse>
+
+08:01:20.679 request:
+1 > DELETE https://petstore.swagger.io/v2/A
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:21.853 response time in milliseconds: 1173.09
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 166
+1 < Content-Type: application/xml
+1 < Date: Wed, 24 Aug 2022 11:01:21 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/A</message><type>unknown</type></apiResponse>
+
+08:01:21.878 request:
+1 > GET https://petstore.swagger.io/v2/pet/8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:23.126 response time in milliseconds: 1247.39
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:22 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":8,"category":{"id":0,"name":"pepito"},"name":"doggie","photoUrls":["pepito.jpg"],"tags":[{"id":0,"name":"perrito"}],"status":"#$%&"}
+
+08:01:23.136 request:
+1 > GET https://petstore.swagger.io/v2/pet/-5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:24.355 response time in milliseconds: 1219.18
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:24 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":1,"type":"error","message":"Pet not found"}
+
+08:01:24.361 request:
+1 > GET https://petstore.swagger.io/v2/pet/5.56
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:25.482 response time in milliseconds: 1119.84
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:25 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"5.56\""}
+
+08:01:25.498 request:
+1 > GET https://petstore.swagger.io/v2/pet/%25&*+
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:26.814 response time in milliseconds: 1315.81
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:26 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"%&*+\""}
+
+08:01:26.823 request:
+1 > GET https://petstore.swagger.io/v2/pet/a
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:28.044 response time in milliseconds: 1220.46
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:27 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"a\""}
+
+08:01:28.052 request:
+1 > GET https://petstore.swagger.io/v2/pet/A
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_331)
+
+08:01:29.273 response time in milliseconds: 1220.38
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Aug 2022 11:01:29 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"A\""}
+
