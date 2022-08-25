@@ -18,9 +18,9 @@ Feature: Service client DELETE
   When method DELETE
   Then status 404
 
-    Examples:
-    |petId |
-    |5.56  |
-    |-5    |
-    |"a"   |
-    |"A"   |
+  Examples:
+  |petId |
+  |5.56  |
+  |-5    |
+  |"a"   |
+  |"A"   |

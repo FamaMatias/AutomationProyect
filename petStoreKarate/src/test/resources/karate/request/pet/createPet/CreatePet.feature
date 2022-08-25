@@ -36,18 +36,18 @@ Feature: Service client POST
     And match response == bodyOk
 
     Examples:
-      |name     |idCat  |
-      |"pepito" |"1"    |
-      |"PEPITO" |"25"   |
-      |"pepe15" |"365"  |
-      |"pepe-15"|"4983" |
-      |"p"      |"26983"|
-      |"P"      |""     |
+    |name     |idCat  |
+    |"pepito" |"1"    |
+    |"PEPITO" |"25"   |
+    |"pepe15" |"365"  |
+    |"pepe-15"|"4983" |
+    |"p"      |"26983"|
+    |"P"      |""     |
 
   Scenario Outline: Create a pet with invalid name and id with method POST
 
-   Given path 'pet'
-   And request
+    Given path 'pet'
+    And request
    """
     {
       "id": <idCat>,
@@ -68,14 +68,14 @@ Feature: Service client POST
     "status": "available"
     }
    """
-   When method POST
-   Then status 500
+    When method POST
+    Then status 500
 
-  Examples:
-  |name  |idCat   |
-  |1     |"pepito"|
-  |-1    |"A"     |
-  |"#$%&"|"#$%&"  |
+    Examples:
+    |name  |idCat   |
+    |1     |"pepito"|
+    |-1    |"A"     |
+    |"#$%&"|"#$%&"  |
 
   Scenario Outline: Create a pet with valid status with method POST
 
@@ -108,10 +108,10 @@ Feature: Service client POST
     And match response == bodyOk
 
     Examples:
-      |status     |
-      |"available"|
-      |"pending"  |
-      |"sold"     |
+    |status     |
+    |"available"|
+    |"pending"  |
+    |"sold"     |
 
   Scenario Outline: Create a pet with invalid status with method POST
 
@@ -141,10 +141,10 @@ Feature: Service client POST
     Then status 200
 
     Examples:
-      |status |
-      |""     |
-      |"1"    |
-      |"-1"   |
-      |"a"    |
-      |"A"    |
-      |"#$%&" |
+    |status |
+    |""     |
+    |"1"    |
+    |"-1"   |
+    |"a"    |
+    |"A"    |
+    |"#$%&" |
