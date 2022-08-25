@@ -16,6 +16,7 @@ Feature: Service client DELETE
 
   Given path <petId>
   When method DELETE
+  Then status 404
 
     Examples:
     |petId |

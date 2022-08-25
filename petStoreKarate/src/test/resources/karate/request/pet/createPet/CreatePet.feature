@@ -1,13 +1,13 @@
-Feature: Service client PUT
+Feature: Service client POST
   As AQ Automation
-  I want to update information for the pets
-  To fix error when it was create
+  I want to create a new pets
+  To see in the petstore
 
   Background:
     * url url
 
-  Scenario Outline: Update a pet with valid name and id with method PUT
-    * def bodyOk = read('classpath:karate/request/responseCreateOk.json')
+  Scenario Outline: Create a pet with valid name and id with method POST
+    * def bodyOk = read('classpath:karate/request/pet/createPet/responseCreatePet.json')
 
     Given path 'pet'
     And request
@@ -31,7 +31,7 @@ Feature: Service client PUT
     "status": "available"
     }
    """
-    When method PUT
+    When method POST
     Then status 200
     And match response == bodyOk
 
@@ -44,10 +44,10 @@ Feature: Service client PUT
       |"p"      |"26983"|
       |"P"      |""     |
 
-  Scenario Outline: Update a pet with invalid name and id with method PUT
+  Scenario Outline: Create a pet with invalid name and id with method POST
 
-    Given path 'pet'
-    And request
+   Given path 'pet'
+   And request
    """
     {
       "id": <idCat>,
@@ -68,18 +68,18 @@ Feature: Service client PUT
     "status": "available"
     }
    """
-    When method POST
-    Then status 500
+   When method POST
+   Then status 500
 
-    Examples:
-      |name  |idCat   |
-      |1     |"pepito"|
-      |-1    |"A"     |
-      |"#$%&"|"#$%&"  |
+  Examples:
+  |name  |idCat   |
+  |1     |"pepito"|
+  |-1    |"A"     |
+  |"#$%&"|"#$%&"  |
 
-  Scenario Outline: Update a pet with valid status with method PUT
+  Scenario Outline: Create a pet with valid status with method POST
 
-    * def bodyOk = read('classpath:karate/request/responseCreateOk.json')
+    * def bodyOk = read('classpath:karate/request/pet/createPet/responseCreatePet.json')
 
     Given path 'pet'
     And request
@@ -113,7 +113,7 @@ Feature: Service client PUT
       |"pending"  |
       |"sold"     |
 
-  Scenario Outline: Update a pet with invalid status with method PUT
+  Scenario Outline: Create a pet with invalid status with method POST
 
     Given  path 'pet'
     And request
