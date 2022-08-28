@@ -14,9 +14,9 @@ Feature: Service client POST
     And request
     """
     {
-  "id": "1",
-"username": "pepito",
-"firstName": "matias",
+  "id": "13",
+"username": "mati",
+"firstName": "pepito",
 "lastName": "mati",
 "email": "kjdlka@gmail.com",
 "password": "546sdafds",

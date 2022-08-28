@@ -7,33 +7,15 @@ Feature: Service client POST
     * url url
 
   Scenario Outline: Create a pet with valid name and id with method POST
+
     * def bodyOk = read('classpath:karate/request/pet/createPet/responseCreatePet.json')
+    * def requestBody = {"name":'#(name)',"job":'#(idCat)'}
 
     Given path 'pet'
-    And request
-   """
-    {
-      "id": 8,
-      "category": {
-      "id": <idCat>,
-      "name": <name>
-    },
-      "name": "doggie",
-      "photoUrls": [
-      "pepito.jpg"
-      ],
-      "tags": [
-      {
-        "id": 0,
-        "name": "perrito"
-      }
-    ],
-    "status": "available"
-    }
-   """
+    And request requestBody
+    And params { "name": <name>, "job": <idCat> }
     When method POST
     Then status 200
-    And match response == bodyOk
 
     Examples:
     |name     |idCat  |
@@ -44,68 +26,16 @@ Feature: Service client POST
     |"p"      |"26983"|
     |"P"      |""     |
 
-  Scenario Outline: Create a pet with invalid name and id with method POST
-
-    Given path 'pet'
-    And request
-   """
-    {
-      "id": <idCat>,
-      "category": {
-      "id": <idCat>,
-      "name": <name>
-    },
-      "name": "doggie",
-      "photoUrls": [
-      "pepito.jpg"
-      ],
-      "tags": [
-      {
-        "id": 0,
-        "name": "perrito"
-      }
-    ],
-    "status": "available"
-    }
-   """
-    When method POST
-    Then status 500
-
-    Examples:
-    |name  |idCat   |
-    |1     |"pepito"|
-    |-1    |"A"     |
-    |"#$%&"|"#$%&"  |
-
   Scenario Outline: Create a pet with valid status with method POST
 
     * def bodyOk = read('classpath:karate/request/pet/createPet/responseCreatePet.json')
+    * def requestBody = {"status":'#(status)'}
 
     Given path 'pet'
-    And request
-   """
-    {
-      "id": 8,
-      "category": {
-      "id": 0,
-      "name": "pepito"
-    },
-      "name": "doggie",
-      "photoUrls": [
-      "pepito.jpg"
-      ],
-      "tags": [
-      {
-        "id": 0,
-        "name": "perrito"
-      }
-    ],
-    "status": <status>
-    }
-   """
+    And request requestBody
+    And params { "status": <status>}
     When method POST
     Then status 200
-    And match response == bodyOk
 
     Examples:
     |status     |
@@ -115,28 +45,11 @@ Feature: Service client POST
 
   Scenario Outline: Create a pet with invalid status with method POST
 
+    * def requestBody = {"status":'#(status)'}
+
     Given  path 'pet'
-    And request
-   """
-    {
-      "id": 8,
-      "category": {
-      "id": 0,
-      "name": "pepito"
-    },
-      "name": "doggie",
-      "photoUrls": [
-      "pepito.jpg"
-      ],
-      "tags": [
-      {
-        "id": 0,
-        "name": "perrito"
-      }
-    ],
-    "status": <status>
-    }
-   """
+    And request requestBody
+    And params { "status": <status>}
     When method POST
     Then status 200
 

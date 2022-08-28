@@ -7,104 +7,32 @@ Feature: Service client PUT
     * url url
 
   Scenario Outline: Update a pet with valid name and id with method PUT
-    * def bodyOk = read('classpath:karate/request/pet/updatePet/responseUpdatePetOk.json')
+    * def requestBody = {"name":'#(name)',"job":'#(idCat)'}
 
     Given path 'pet'
-    And request
-   """
-    {
-      "id": 8,
-      "category": {
-      "id": <idCat>,
-      "name": <name>
-    },
-      "name": "doggie",
-      "photoUrls": [
-      "pepito.jpg"
-      ],
-      "tags": [
-      {
-        "id": 0,
-        "name": "perrito"
-      }
-    ],
-    "status": "available"
-    }
-   """
+    And request requestBody
+    And params { "name": <name>, "job": <idCat> }
     When method PUT
     Then status 200
-    And match response == bodyOk
 
     Examples:
-    |name     |idCat  |
-    |"pepito" |"1"    |
-    |"PEPITO" |"25"   |
-    |"pepe15" |"365"  |
-    |"pepe-15"|"4983" |
-    |"p"      |"26983"|
-    |"P"      |""     |
-
-  Scenario Outline: Update a pet with invalid name and id with method PUT
-
-    Given path 'pet'
-    And request
-   """
-    {
-      "id": <idCat>,
-      "category": {
-      "id": <idCat>,
-      "name": <name>
-    },
-      "name": "doggie",
-      "photoUrls": [
-      "pepito.jpg"
-      ],
-      "tags": [
-      {
-        "id": 0,
-        "name": "perrito"
-      }
-    ],
-    "status": "available"
-    }
-   """
-    When method POST
-    Then status 500
-
-    Examples:
-    |name  |idCat   |
-    |  {}  | {}     |
-    |"#$%&"|"#$%&"  |
+    |name     |idCat                    |
+    |"pepito" |"9223372036854021536"    |
+    |"PEPITO" |"25"                     |
+    |"pepe15" |"365"                    |
+    |"pepe-15"|"4983"                   |
+    |"p"      |"26983"                  |
+    |"P"      |""                       |
 
   Scenario Outline: Update a pet with valid status with method PUT
 
-    * def bodyOk = read('classpath:karate/request/pet/updatePet/responseUpdatePetOk.json')
+    * def requestBody = {"status":'#(status)'}
 
     Given path 'pet'
-    And request
-   """
-    {
-      "id": 8,
-      "category": {
-      "id": 0,
-      "name": "pepito"
-    },
-      "name": "doggie",
-      "photoUrls": [
-      "pepito.jpg"
-      ],
-      "tags": [
-      {
-        "id": 0,
-        "name": "perrito"
-      }
-    ],
-    "status": <status>
-    }
-   """
-    When method POST
+    And request requestBody
+    And params { "status": <status>}
+    When method PUT
     Then status 200
-    And match response == bodyOk
 
     Examples:
     |status     |

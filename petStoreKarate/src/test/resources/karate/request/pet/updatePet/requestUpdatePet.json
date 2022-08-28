@@ -1,0 +1,11 @@
+{
+  "id": "#idCat",
+  "category": {
+    "id": "#idCat",
+    "name": "#name"
+  },
+  "name": "doggie",
+  "photoUrls": [],
+  "tags": [],
+  "status": "#status"
+}
