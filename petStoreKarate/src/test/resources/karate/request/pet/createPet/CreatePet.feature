@@ -6,20 +6,31 @@ Feature: Service client POST
   Background:
     * url url
 
-  Scenario Outline: Create a pet with valid name and id with method POST
+  @test1
+  Scenario: Create a pet with id 6
 
-    * def bodyOk = read('classpath:karate/request/pet/createPet/responseCreatePet.json')
-    * def requestBody = {"name":'#(name)',"job":'#(idCat)'}
+    * def requestBody = {"id":'6'}
+    * def responseCreate = read ("classpath:karate/request/pet/createPet/responseCreatePet.json")
 
     Given path 'pet'
     And request requestBody
-    And params { "name": <name>, "job": <idCat> }
+    When method POST
+    Then status 200
+
+
+  Scenario Outline: Create a pet with valid name and id with method POST
+
+    * def requestBody = {"name":'#(name)',"id":'#(idCat)'}
+
+    Given path 'pet'
+    And request requestBody
+    And params { "name": <name>, "id": <idCat> }
     When method POST
     Then status 200
 
     Examples:
     |name     |idCat  |
-    |"pepito" |"1"    |
+    |"pepito" |"9"    |
     |"PEPITO" |"25"   |
     |"pepe15" |"365"  |
     |"pepe-15"|"4983" |

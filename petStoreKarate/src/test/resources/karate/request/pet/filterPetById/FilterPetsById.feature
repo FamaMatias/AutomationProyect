@@ -8,7 +8,7 @@ Feature: Service client GET
 
   Scenario: Filter pets with method GET
 
-    Given path 'pet','8'
+    Given path 'pet','9'
     When method GET
     Then status 200
 

@@ -6,11 +6,13 @@ Feature: Service client DELETE
   Background:
     * url url
 
+  @test2
   Scenario: Deletes a valid pets with the method DELETE
 
-  Given path 'pet','9'
+  Given path 'pet','6'
   When method DELETE
   Then status 200
+
 
   Scenario Outline: Deletes a invalid pets with the method DELETE
 
