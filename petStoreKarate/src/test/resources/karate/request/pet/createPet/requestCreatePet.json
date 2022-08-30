@@ -1,0 +1,18 @@
+{
+  "id": "#idCat",
+  "category": {
+    "id": "#idCat",
+    "name": "#name"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "pepito.jpg"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "perrito"
+    }
+  ],
+  "status": "#status"
+}

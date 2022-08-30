@@ -5,14 +5,7 @@
   "name": "#string"
 },
   "name": "#string",
-  "photoUrls": [
-    "#string"
-  ],
-  "tags": [
-  {
-  "id": "#number",
-  "name": "#string"
-}
-],
+  "photoUrls": [],
+  "tags": [],
  "status": "#string"
 }
